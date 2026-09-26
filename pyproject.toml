@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phantom-v8"
+version = "1.0.0"
+description = "Kernel-Level Undetectable Browser Automation & Hardware HID Injector for Computer Use (September 2026)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Antigravity Engineering", email = "engineering@antigravity.ai"}]
+dependencies = []
+
+[project.scripts]
+phantom-v8 = "phantom_v8.cli:main"
